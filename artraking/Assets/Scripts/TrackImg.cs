@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 
 public class TrackImg : MonoBehaviour
 {
@@ -12,10 +13,12 @@ public class TrackImg : MonoBehaviour
     public List<GameObject> objList = new List<GameObject>();
     private Dictionary<string, GameObject> _prefabDic = new Dictionary<string, GameObject>();
 
+    /*
     private List<ARTrackedImage> _trackedImg = new List<ARTrackedImage>();
 
     private List<float> _trackedTimer = new List<float>();
 
+    */
     private void Awake()
     {
         foreach(GameObject obj in objList)
@@ -24,6 +27,8 @@ public class TrackImg : MonoBehaviour
             _prefabDic.Add(tName, obj);
         }
     }
+
+    /*
 
     private void Update()
     {
@@ -65,6 +70,8 @@ public class TrackImg : MonoBehaviour
         }
     }
 
+    */
+
     private void OnEnable()
     {
         arManager.trackedImagesChanged += ImageChanged;
@@ -79,15 +86,19 @@ public class TrackImg : MonoBehaviour
     {
         foreach(ARTrackedImage trackedImage in eventArgs.added)
         {
+            /*
             if(!_trackedImg.Contains(trackedImage))
             {
                 _trackedImg.Add(trackedImage);
                 _trackedTimer.Add(0);
             }
+            */
+            UpdateImage(trackedImage);
         }
 
         foreach (ARTrackedImage trackedImage in eventArgs.updated)
         {
+            /*
             if(!_trackedImg.Contains(trackedImage))
             {
                 _trackedImg.Add(trackedImage);
@@ -98,8 +109,14 @@ public class TrackImg : MonoBehaviour
                 int num = _trackedImg.IndexOf(trackedImage);
                 _trackedTimer[num] = 0;
             }
+            */
 
             UpdateImage(trackedImage);
+        }
+
+        foreach(ARTrackedImage trackedImage in eventArgs.removed)
+        {
+            _prefabDic[trackedImage.name].SetActive(false);
         }
     }
 
@@ -108,10 +125,18 @@ public class TrackImg : MonoBehaviour
         string name = trackedImage.referenceImage.name;
         GameObject tObj = _prefabDic[name];
 
-        tObj.transform.position = trackedImage.transform.position;
-        tObj.transform.rotation = trackedImage.transform.rotation;
-        tObj.SetActive(true);
-        tObj.GetComponent<Exercise>().isOn = true;
+        if(trackedImage.trackingState == TrackingState.Tracking)
+        {
+            tObj.transform.position = trackedImage.transform.position;
+            tObj.transform.rotation = trackedImage.transform.rotation;
+            tObj.SetActive(true);
+            //tObj.GetComponent<Exercise>().isOn = true;
+        }
+        else
+        {
+            tObj.SetActive(false);
+        }
+
     }
 
 }

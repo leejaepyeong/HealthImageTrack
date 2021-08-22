@@ -12,7 +12,7 @@ public class Exercise : MonoBehaviour
 
     private void Update()
     {
-        if(isOn && !isExercise)
+        if(!isExercise)
         {
             isExercise = true;
             anim.SetTrigger(exercise);

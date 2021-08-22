@@ -45,23 +45,3 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: PushUp
     m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5691992393837101721
-      m_GuidHigh: 10938555288526532021
-    m_SerializedTextureGuid:
-      m_GuidLow: 342259398628784735
-      m_GuidHigh: 6771905490077419787
-    m_Size: {x: 0.3, y: 0.16819407}
-    m_SpecifySize: 1
-    m_Name: Squirt
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 4672248134657979561
-      m_GuidHigh: 3561599747350715831
-    m_SerializedTextureGuid:
-      m_GuidLow: 357724030665579148
-      m_GuidHigh: 13089457983858702504
-    m_Size: {x: 0.3, y: 0.17108108}
-    m_SpecifySize: 1
-    m_Name: exercise2
-    m_Texture: {fileID: 0}
