@@ -1,5 +1,0 @@
-a7b9be488b5b44f98824f8ccd698b56c|/Users/idonghui/Desktop/unity/artraking/Assets/Texture/AirSquirt.png|0.1
-f459ac7411474c71b6dbf992ae0ba8c6|/Users/idonghui/Desktop/unity/artraking/Assets/Texture/BurPee.png|0.1
-c3e3114b982a4bd9a611112bd308c9fe|/Users/idonghui/Desktop/unity/artraking/Assets/Texture/PushUp.png|0.1
-bae2c29904ec4efeb52d9878148ecd97|/Users/idonghui/Desktop/unity/artraking/Assets/Texture/Squirt.png|0.3
-80c534a928ec40d7b7ddf59c19586d31|/Users/idonghui/Desktop/unity/artraking/Assets/Texture/exercise2.png|0.3

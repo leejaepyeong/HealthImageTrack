@@ -1146,4 +1146,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/idonghui/Desktop/unity/artraking/artrack.apk
+  playerPath: /Users/idonghui/Desktop/unity/HealthImageTrack/artraking/healthar.apk
