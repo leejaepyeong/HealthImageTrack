@@ -1,0 +1,2 @@
+a7b9be488b5b44f98824f8ccd698b56c|/Users/idonghui/Desktop/unity/artraking/Assets/Res/img_soonsoon.png|0.1
+f459ac7411474c71b6dbf992ae0ba8c6|/Users/idonghui/Desktop/unity/artraking/Assets/Res/img_ari.png|0.1

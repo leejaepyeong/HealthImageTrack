@@ -1,0 +1,4 @@
+#Sat Aug 21 07:23:09 KST 2021
+base.0=/Users/idonghui/Desktop/unity/artraking/Temp/gradleOut/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

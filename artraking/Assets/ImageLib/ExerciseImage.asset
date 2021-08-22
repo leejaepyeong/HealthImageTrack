@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ExerciseImage
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4666828243215283322
+  m_GuidHigh: 7802199035406202259
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4970156889552305736
+      m_GuidHigh: 7833335175210083464
+    m_SerializedTextureGuid:
+      m_GuidLow: 8412987410185421098
+      m_GuidHigh: 2331610778525608
+    m_Size: {x: 0.1, y: 0.11186441}
+    m_SpecifySize: 1
+    m_Name: AirSquat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5508202819990695028
+      m_GuidHigh: 14314704260015184822
+    m_SerializedTextureGuid:
+      m_GuidLow: 343152046775273756
+      m_GuidHigh: 15628546394106309482
+    m_Size: {x: 0.1, y: 0.1768953}
+    m_SpecifySize: 1
+    m_Name: Burpee
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5465566932233294155
+      m_GuidHigh: 18359215059006198182
+    m_SerializedTextureGuid:
+      m_GuidLow: 8380651145417364101
+      m_GuidHigh: 14503441924521751178
+    m_Size: {x: 0.1, y: 0.08469751}
+    m_SpecifySize: 1
+    m_Name: PushUp
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5691992393837101721
+      m_GuidHigh: 10938555288526532021
+    m_SerializedTextureGuid:
+      m_GuidLow: 342259398628784735
+      m_GuidHigh: 6771905490077419787
+    m_Size: {x: 0.3, y: 0.16819407}
+    m_SpecifySize: 1
+    m_Name: Squirt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4672248134657979561
+      m_GuidHigh: 3561599747350715831
+    m_SerializedTextureGuid:
+      m_GuidLow: 357724030665579148
+      m_GuidHigh: 13089457983858702504
+    m_Size: {x: 0.3, y: 0.17108108}
+    m_SpecifySize: 1
+    m_Name: exercise2
+    m_Texture: {fileID: 0}
