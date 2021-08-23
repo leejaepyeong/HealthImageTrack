@@ -45,3 +45,23 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: PushUp
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5101719061888375295
+      m_GuidHigh: 3209804676485415567
+    m_SerializedTextureGuid:
+      m_GuidLow: 342259398628784735
+      m_GuidHigh: 6771905490077419787
+    m_Size: {x: 0.1, y: 0.05606469}
+    m_SpecifySize: 1
+    m_Name: SquirtVideo
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5573944745385690175
+      m_GuidHigh: 1519495387904886950
+    m_SerializedTextureGuid:
+      m_GuidLow: 357724030665579148
+      m_GuidHigh: 13089457983858702504
+    m_Size: {x: 0.1, y: 0.057027027}
+    m_SpecifySize: 1
+    m_Name: 3MinuteVideo
+    m_Texture: {fileID: 0}

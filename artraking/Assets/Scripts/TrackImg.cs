@@ -116,7 +116,11 @@ public class TrackImg : MonoBehaviour
 
         foreach(ARTrackedImage trackedImage in eventArgs.removed)
         {
+
             _prefabDic[trackedImage.name].SetActive(false);
+
+            
+
         }
     }
 
@@ -129,11 +133,19 @@ public class TrackImg : MonoBehaviour
         {
             tObj.transform.position = trackedImage.transform.position;
             tObj.transform.rotation = trackedImage.transform.rotation;
+            if (tObj.GetComponentInChildren<Exercise>() != null)
+                tObj.GetComponentInChildren<Exercise>().isOn = true;
+
             tObj.SetActive(true);
-            //tObj.GetComponent<Exercise>().isOn = true;
+            
         }
         else
         {
+            if (tObj.GetComponentInChildren<Exercise>() != null)
+            {
+                tObj.GetComponentInChildren<Exercise>().isOn = false;
+                tObj.GetComponentInChildren<Exercise>().isExercise = false;
+            }
             tObj.SetActive(false);
         }
 

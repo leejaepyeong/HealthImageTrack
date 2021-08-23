@@ -8,7 +8,7 @@ public class Exercise : MonoBehaviour
     public Animator anim;
 
     public bool isOn = false;
-    public bool isExercise;
+    public bool isExercise = false;
 
     private void Update()
     {

@@ -31,7 +31,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -73,25 +72,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1624}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 2340}
+      Script: {instanceID: 2338}
     - Class: 114
-      Script: {instanceID: 3262}
+      Script: {instanceID: 3260}
     - Class: 114
-      Script: {instanceID: 3716}
+      Script: {instanceID: 3714}
     - Class: 114
-      Script: {instanceID: 4006}
+      Script: {instanceID: 4004}
     - Class: 114
-      Script: {instanceID: 4302}
+      Script: {instanceID: 4300}
     - Class: 114
-      Script: {instanceID: 4626}
+      Script: {instanceID: 4624}
     - Class: 114
-      Script: {instanceID: 5740}
+      Script: {instanceID: 5738}
     - Class: 114
-      Script: {instanceID: 6512}
+      Script: {instanceID: 6510}
     - Class: 114
-      Script: {instanceID: 7276}
+      Script: {instanceID: 7274}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -1152,4 +1151,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/idonghui/Desktop/unity/HealthImageTrack/artraking/healthar.apk
+  playerPath: /Users/mr13/Desktop/LJP_UNITY/APK/HealthAr.apk
